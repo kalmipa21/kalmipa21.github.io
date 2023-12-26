@@ -1,0 +1,198 @@
+#whatWeDo {
+  margin: 6rem;
+}
+
+#whatWeDo .wave_decor {
+  top: 1rem;
+  left: 24.5rem;
+}
+
+#whatWeDo h1 {
+  font-family: Unbounded;
+  font-size: 3.375rem;
+  font-weight: 300;
+}
+#whatWeDo h2 {
+  color: #fff;
+  width: 18rem;
+  font-family: Unbounded;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.slider_weDo1,
+.slider_weDo2,
+.slider_weDo3,
+.slider_weDo4,
+.slider_weDo5,
+.slider_weDo6 {
+  position: relative;
+  width: 50%;
+  height: 337px;
+  padding: 2.25rem 18.0625rem 3.75rem 3.5rem;
+}
+.slider_weDo1::before,
+.slider_weDo2::before,
+.slider_weDo3::before,
+.slider_weDo4::before,
+.slider_weDo5::before,
+.slider_weDo6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../assets/images/Rectangle_23.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateX(0deg);
+  z-index: -1;
+}
+.slider_weDo2::before {
+  background-image: url(../assets/images/Rectangle_21.png);
+  transform: rotate(0deg);
+}
+.slider_weDo3::before {
+  background-image: url(../assets/images/Rectangle_22.png);
+  transform: rotate(0deg);
+  transform: rotateY(180deg);
+}
+.slider_weDo4::before {
+  background-image: url(../assets/images/Rectangle_20.png);
+  transform: rotate(0deg);
+  transform: rotateX(180deg);
+}
+.slider_weDo5::before {
+  background-image: url(../assets/images/Rectangle_21.png);
+  transform: rotate(0deg);
+  transform: rotateY(180deg);
+}
+.slider_weDo6::before {
+  background-image: url(../assets/images/Rectangle_23.png);
+  transform: rotate(180deg);
+}
+
+.span_slider {
+  width: 16.5rem;
+}
+
+.carousel-indicators {
+  position: static;
+  z-index: 15;
+  width: 5rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.carousel-indicators button {
+  height: 1rem !important;
+  width: 1rem !important;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #e28224;
+  opacity: 1;
+}
+
+.bottom_menu {
+  position: relative;
+  height: 100%;
+  padding: 0rem 1rem 0rem 1rem;
+  margin-top: 10.375rem;
+}
+
+.bottom_menu object {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+.bottom_menu .globe {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.bottom_menu span {
+  color: #fff;
+  font-family: Unbounded;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bottom_menu h3 {
+  font-size: 0.7rem;
+}
+
+.bottom_menu h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1280px) {
+  .slider_weDo1,
+  .slider_weDo2,
+  .slider_weDo3,
+  .slider_weDo4,
+  .slider_weDo5,
+  .slider_weDo6 {
+    padding: 2.25rem 12rem 3.75rem 3.5rem;
+  }
+  .span_slider {
+    width: 25rem;
+  }
+}
+@media (max-width: 1024px) {
+  .slider_weDo1,
+  .slider_weDo2,
+  .slider_weDo3,
+  .slider_weDo4,
+  .slider_weDo5,
+  .slider_weDo6 {
+    padding: 2.25rem 10rem 3.75rem 3.5rem;
+  }
+  #whatWeDo h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #whatWeDo {
+    margin: 3rem;
+  }
+  .slider_weDo1,
+  .slider_weDo2,
+  .slider_weDo3,
+  .slider_weDo4,
+  .slider_weDo5,
+  .slider_weDo6 {
+    width: 100%;
+  }
+  #whatWeDo h2 {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .carousel_mobile {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
+
+  #whatWeDo .wave_decor {
+    position: static;
+  }
+}

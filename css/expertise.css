@@ -1,0 +1,159 @@
+.expertise {
+  margin: 6rem;
+}
+.padding_left_expertise {
+  padding-left: 21rem;
+}
+
+.tabbing_section {
+  overflow: hidden;
+}
+
+.tablinks {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablinks {
+  font-family: Unbounded;
+  font-size: 30px;
+  font-weight: 300;
+  opacity: 0.3;
+  background: linear-gradient(
+    91deg,
+    #c6f1f7 -4.01%,
+    #f983e9 36.14%,
+    #b877ff 77.44%,
+    #c2e9cd 106.11%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tabbing_section .tablinks {
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabbing_section .tablinks.active {
+  opacity: 1;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.ball_expertise {
+  width: 8rem;
+  height: 6.4rem;
+  flex-shrink: 0;
+}
+
+.year_desk_expertise {
+  position: absolute;
+}
+.star_desk_expertise {
+  position: absolute;
+  top: 35rem;
+}
+.year_expertiese {
+  font-family: Inter;
+  font-size: 14px;
+}
+
+#expertise .wave_decor {
+  left: calc((100% - 21.5rem));
+  top: -1.5rem;
+}
+.padding_right_expertise {
+  padding-right: 30rem;
+}
+
+@media (max-width: 1200px) {
+  #expertise .wave_decor {
+    position: static;
+    margin-bottom: -6rem;
+  }
+  .expertise {
+    margin-top: 3rem;
+  }
+  #expertise .big_text_about {
+    font-size: 3rem;
+  }
+  .padding_right_expertise {
+    padding-right: 20rem;
+  }
+  .padding_left_expertise {
+    padding-left: 15rem;
+  }
+}
+
+@media (max-width: 993px) {
+  #expertise .big_text_about {
+    font-size: 2.5rem;
+  }
+  #expertise .wave_decor {
+    position: static;
+    margin-bottom: -6rem;
+    font-size: 2.7rem;
+  }
+  .tablinks {
+    font-size: 25px;
+    height: 6rem;
+  }
+  .padding_left_expertise {
+    padding-left: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise {
+    margin: 3rem;
+  }
+  #expertise .big_text_about {
+    font-size: 2rem;
+  }
+  #expertise .wave_decor {
+    position: static;
+    margin-bottom: -6rem;
+    font-size: 2.4rem;
+  }
+  .tablinks {
+    font-size: 20px;
+    height: 4rem;
+  }
+  .padding_left_expertise {
+    padding-left: 0.8rem;
+  }
+  .padding_right_expertise {
+    padding-right: 10rem;
+  }
+  .year_desk_expertise {
+    position: static;
+  }
+  .star_desk_expertise {
+    position: static;
+  }
+  .tabcontent {
+    display: none;
+    padding: 6px 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tablinks {
+    font-size: 15px;
+    height: 4rem;
+  }
+  .tabcontent {
+    display: none;
+    padding: 6px 6px;
+  }
+}

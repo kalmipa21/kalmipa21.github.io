@@ -1,0 +1,192 @@
+.about {
+  margin: 6rem;
+}
+.box_about {
+  margin: 6rem;
+}
+
+.star_about {
+  width: 76.621px;
+  height: 28.125px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #fff;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.text_about {
+  color: #e4e4e4;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  width: 27rem;
+  height: auto;
+}
+.year_about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  top: 5rem;
+}
+.big_text_about {
+  font-family: Unbounded;
+  font-size: 3.375rem;
+  font-weight: 300;
+}
+
+.wave_decor {
+  position: absolute;
+  left: 0;
+  font-family: Unbounded;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: -9.6px;
+}
+.about .wave_decor {
+  bottom: -3.8rem;
+}
+.rectangle_about {
+  width: 15rem;
+  height: 17rem;
+  background: #202020;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+}
+.ball_about {
+  width: 13.5rem;
+  height: 13.2rem;
+  flex-shrink: 0;
+}
+.number_about {
+  color: #fff;
+  font-family: Unbounded;
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 2.4rem;
+}
+.box_1,
+.box_2,
+.box_3,
+.box_4 {
+  background-image: url(../assets/images/Rectangle_20.png);
+  background-repeat: no-repeat;
+  height: 18rem;
+  background-size: cover;
+  gap: 2.375rem;
+  padding: 5rem 18.375rem 3rem 3rem;
+}
+.box_2 {
+  background-image: url(../assets/images/Rectangle_21.png);
+}
+.box_3 {
+  background-image: url(../assets/images/Rectangle_22.png);
+}
+.box_4 {
+  background-image: url(../assets/images/Rectangle_23.png);
+}
+
+@media (max-width: 1407px) {
+  .about .wave_decor {
+    font-size: 2.7rem;
+  }
+  .box_1,
+  .box_2,
+  .box_3,
+  .box_4 {
+    padding: 5rem 17rem 3rem 3rem;
+  }
+}
+@media (max-width: 1248px) {
+  .about .wave_decor {
+    font-size: 2.7rem;
+  }
+  .box_1,
+  .box_2,
+  .box_3,
+  .box_4 {
+    padding: 3rem 13rem 3rem 3rem;
+  }
+  .number_about {
+    margin-bottom: 2rem;
+  }
+
+  .rectangle_about {
+    width: 12rem;
+    height: 14rem;
+  }
+  .ball_about {
+    width: 11.5rem;
+    height: 11.2rem;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 993px) {
+  .text_about {
+    width: 15rem;
+    font-size: 0.7rem;
+  }
+  .box_1,
+  .box_2,
+  .box_3,
+  .box_4 {
+    padding: 2rem 7rem 3rem 3rem;
+  }
+
+  .rectangle_about {
+    width: 10rem;
+    height: 12rem;
+  }
+  .ball_about {
+    width: 9.5rem;
+    height: 9.2rem;
+    flex-shrink: 0;
+  }
+  .big_text_about {
+    font-size: 3rem;
+  }
+  .about .wave_decor {
+    font-size: 2.5rem;
+    left: calc((100% - 17.5rem));
+    bottom: -3rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .about {
+    margin: 3rem;
+  }
+  .star_about {
+    width: 76.621px;
+    height: 28.125px;
+    position: static;
+  }
+  .year_about {
+    position: static;
+  }
+
+  .big_text_about {
+    font-size: 2rem;
+  }
+  .about .wave_decor {
+    font-size: 2.5rem;
+    left: 0;
+    bottom: -3rem;
+  }
+  .box_about {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 600px) {
+  .rectangle_about {
+    display: none;
+  }
+}
